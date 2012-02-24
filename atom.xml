@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Random Thoughts.]]></title>
+  <link href="http://feinerfug.github.com/atom.xml" rel="self"/>
+  <link href="http://feinerfug.github.com/"/>
+  <updated>2012-02-24T14:42:34+01:00</updated>
+  <id>http://feinerfug.github.com/</id>
+  <author>
+    <name><![CDATA[Gregor Weckbecker]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A new blog is born]]></title>
+    <link href="http://feinerfug.github.com/blog/2012/02/22/a-new-blog-is-born/"/>
+    <updated>2012-02-22T22:48:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2012/02/22/a-new-blog-is-born</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+et justo duo</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">puts</span> <span class="nb">test</span>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;test </span><span class="si">#{</span><span class="n">some_var</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">unless</span> <span class="n">some_var</span><span class="o">.</span><span class="n">nil?</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>A new Class </span><a href='http://java.net'>Java.net</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">TestClass</span> <span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>       <span class="kd">private</span> <span class="kd">static</span> <span class="n">TestClass</span> <span class="n">instance</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>       <span class="kd">private</span> <span class="n">TestClass</span> <span class="o">{</span>
+</span><span class='line'>               <span class="c1">// Do something</span>
+</span><span class='line'>       <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>       <span class="kd">public</span> <span class="kd">static</span> <span class="n">TestClass</span> <span class="nf">getInstance</span><span class="o">()</span> <span class="o">{</span>
+</span><span class='line'>              <span class="k">if</span> <span class="o">(</span><span class="n">instance</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>                 <span class="n">instance</span> <span class="o">=</span> <span class="k">new</span>  <span class="n">TestClass</span><span class="o">();</span>
+</span><span class='line'>              <span class="o">}</span>
+</span><span class='line'>              <span class="k">return</span> <span class="n">instance</span><span class="o">;</span>
+</span><span class='line'>       <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>dolores et ea rebum. Stet clita kasd gubergren, no sea
+takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.</p>
+
+<p>File /home/greg/dev/blog/octopress/source/downloads/code/Singelton.java could not be found</p>
+
+<p>At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet.</p>
+
+<div><script src='https://gist.github.com/313496e6ba9160dc6eb5.js?file='></script>
+<noscript><pre><code>/**
+ * Copyright (C) 2011 by Yehuda Katz
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the &quot;Software&quot;), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+**/
+
+// ligament.js is the smallest, lightest-weight JavaScript MVC framework.
+//
+// ligament.js requires modern browsers, which provide Object.create.
+// Newer browsers are the future, older browsers are the past.
+//
+// If you really must support older browsers like IE8, you can use the
+// hot polyfill for Object.create found at
+// https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/create
+
+// Usage:
+//   MyModel  = Object.create(M);
+//   instance = Object.create(MyModel);
+//   instance.firstName = &quot;Brendan&quot;;
+//   instance.lastName = &quot;Eich&quot;;
+//
+// Because ligament.js uses *real* prototype inheritance, like Spine, you can add new
+// methods to the MVC layers by simply extending MVC objects:
+//   M.toString = function() { console.log(&quot;All models get this method!&quot;); };
+//   Person = Object.create(M);
+//   Person.fullName = function() { return this.firstName + ' ' + this.lastName; }
+//   jeremy = Object.create(Person);
+//   jeremy.firstName = &quot;Jeremy&quot;;
+//   jeremy.lastName = &quot;Ashkenas&quot;;
+//   jeremy.fullName() //=&gt; Jeremy Ashkenas
+//
+// That's it! Why deal with all the bloat of JavaScript frameworks. Use ligament.js!
+
+M = {}, V = {}, C = {};</code></pre></noscript></div>
+
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+vero eros et accumsan et iusto odio dignissim qui blandit praesent
+luptatum zzril delenit augue duis dolore te feugait nulla
+facilisi. Lorem ipsum dolor sit amet,</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cassandra]]></title>
+    <link href="http://feinerfug.github.com/blog/2010/02/24/cassandra/"/>
+    <updated>2010-02-24T15:18:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2010/02/24/cassandra</id>
+    <content type="html"><![CDATA[<p><a href="http://incubator.apache.org/cassandra/">Cassandra</a></p>
+
+<blockquote>
+<p>A highly scalable, eventually consistent, distributed, structured key-value store.</p>
+    <p>
+    The Apache Cassandra Project develops a highly scalable second-generation distributed database,
+    bringing together <a href="http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html">
+    Dynamo&#8217;s</a> fully distributed design and
+    <a href="http://labs.google.com/papers/bigtable.html">Bigtable&#8217;s</a> ColumnFamily-based data
+    model.
+    </p>
+
+    <p>
+    Cassandra <a href="http://www.new.facebook.com/note.php?note_id=24413138919">was
+    open sourced by Facebook in 2008</a>, where it was designed by
+    Avinash Lakshman (one of the authors of Amazon&#8217;s Dynamo) and
+    Prashant Malik. In a lot of ways you can think of Cassandra as
+    Dynamo 2.0.
+    </p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[QuartzRails]]></title>
+    <link href="http://feinerfug.github.com/blog/2010/02/10/quartzrails/"/>
+    <updated>2010-02-10T18:09:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2010/02/10/quartzrails</id>
+    <content type="html"><![CDATA[<p><a href="http://github.com/spraints/mirror-quartz-jruby-plugin">QuartzRails</a></p>
+
+<blockquote>
+<p>
+Rails plugin to integrate with the Quartz scheduling library.
+</p><p>
+This plugin consists of a ServletContextListener which initializes the Quartz
+scheduler, and a QuartzJob able to run arbitrary Ruby code in the JRuby/Rails
+environment. 
+</p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Fight for Freedom!" - Die Legende vom "anderen Deutschland"]]></title>
+    <link href="http://feinerfug.github.com/blog/2010/01/07/fight-for-freedom-die-legende-vom-anderen-deutschland/"/>
+    <updated>2010-01-07T22:14:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2010/01/07/fight-for-freedom-die-legende-vom-anderen-deutschland</id>
+    <content type="html"><![CDATA[<p><a href="http://gruppegeorgelser.wordpress.com/2010/01/07/fight-for-freedom-die-legende-vom-%E2%80%9Canderen-deutschland%E2%80%9D/">&#8220;Fight for Freedom!&#8221; - Die Legende vom &#8220;anderen Deutschland&#8221;</a></p>
+
+<blockquote>
+<p>Buchvorstellung mit Jan Gerber und Anja Worm</p>
+<p><strong>Am Freitag,  den 29. Januar 2009 um 20:00 Uhr im Hörsaal 17</strong> <br/>
+(Englisches Seminar, Hauptgebäude der Uni Bonn, Regina-Parcis-Weg 3, Bonn)</p>
+
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using the memcached telnet interface]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/12/01/using-the-memcached-telnet-interface/"/>
+    <updated>2009-12-01T11:25:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/12/01/using-the-memcached-telnet-interface</id>
+    <content type="html"><![CDATA[<p><a href="http://lzone.de/articles/memcached.htm">Using the memcached telnet interface</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Regisseur Lanzmann ]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/19/regisseur-lanzmann/"/>
+    <updated>2009-11-19T12:20:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/19/regisseur-lanzmann</id>
+    <content type="html"><![CDATA[<p><a href="http://www.spiegel.de/kultur/gesellschaft/0,1518,661980,00.html">Regisseur Lanzmann </a></p>
+
+<blockquote>&#8220;Sie nennen es Antizionismus, aber es ist Antisemitismus&#8221;</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Profile in Social Networks zeigen meist wahre Identität]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/19/profile-in-social-networks-zeigen-meist-wahre-identitat/"/>
+    <updated>2009-11-19T12:15:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/19/profile-in-social-networks-zeigen-meist-wahre-identitat</id>
+    <content type="html"><![CDATA[<p><a href="http://www.heise.de/newsticker/meldung/Profile-in-Social-Networks-zeigen-meist-wahre-Identitaet-863565.html">Profile in Social Networks zeigen meist wahre Identität</a></p>
+
+<blockquote>&#8220;Die Ergebnisse haben uns selbst überrascht, weil sie der weit verbreiteten Meinung widersprechen, dass Online-Profile nur dazu verwendet werden, ein Ideal der eigenen Person zu präsentieren&#8221;, erläuterte Teammitglied Mitja Back vom Psychologischen Institut der Universität in einer Mitteilung vom Mittwoch. &#8220;Online-Profile vermitteln tatsächlich ein sehr genaues Bild der Profilinhaber.&#8221;</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[S5: A Simple Standards-Based Slide Show System]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/15/s5-a-simple-standards-based-slide-show-system/"/>
+    <updated>2009-11-15T12:31:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/15/s5-a-simple-standards-based-slide-show-system</id>
+    <content type="html"><![CDATA[<p><a href="http://meyerweb.com/eric/tools/s5/">S5: A Simple Standards-Based Slide Show System</a></p>
+
+<p>Ein (X)HTML basiertes Präsentationssystem. Wenn es um mathematische Präsentationen wird es sicherlich von Latex geschlagen. Vor allem das setzen beim von Formeln usw. ist Latex ungeschlagen. Aber es ist sicherlich sehr leicht an die zu erweitern und anzupassen.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Comprehensive LATEX Symbol List]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/13/the-comprehensive-latex-symbol-list/"/>
+    <updated>2009-11-13T00:00:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/13/the-comprehensive-latex-symbol-list</id>
+    <content type="html"><![CDATA[<p><a href="http://www.imsc.res.in/Computer/symbols-letter.pdf">The Comprehensive LATEX Symbol List</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bildung, Zurichtung und Freiheit - Einge Bemerkungen zum Bildungsstreik]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/12/bildung-zurichtung-und-freiheit-einge-bemerkungen-zum-bildungsstreik/"/>
+    <updated>2009-11-12T23:05:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/12/bildung-zurichtung-und-freiheit-einge-bemerkungen-zum-bildungsstreik</id>
+    <content type="html"><![CDATA[<p><a href="http://lust-uni-bonn.de/t3_413/uploads/media/bildungsstreik_email.pdf">Bildung, Zurichtung und Freiheit - Einge Bemerkungen zum Bildungsstreik</a></p>
+
+<p>Warning: Pdf inside!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Imre Kertész: Der tägliche Kampf gegen das Schweigen]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/12/imre-kertesz-der-tagliche-kampf-gegen-das-schweigen/"/>
+    <updated>2009-11-12T10:08:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/12/imre-kertesz-der-tagliche-kampf-gegen-das-schweigen</id>
+    <content type="html"><![CDATA[<p><a href="http://www.zeit.de/kultur/literatur/2009-11/imre-kertesz-ungarn">Imre Kertész: Der tägliche Kampf gegen das Schweigen</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Closure Library]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/06/closure-library/"/>
+    <updated>2009-11-06T09:32:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/06/closure-library</id>
+    <content type="html"><![CDATA[<p><a href="http://code.google.com/closure/library/">Closure Library</a></p>
+
+<blockquote>
+<h3>What is the Closure Library?</h3>
+<p>The Closure Library is a broad, well-tested, modular, and cross-browser JavaScript library. You can pull just what you need from a large set of reusable UI widgets and controls, and from lower-level utilities for DOM manipulation, server communication, animation, data structures, unit testing, rich-text editing, and more.</p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Moderne Musik: Zu schräg - für wen?]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/11/01/moderne-musik-zu-schrag-fur-wen/"/>
+    <updated>2009-11-01T11:39:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/11/01/moderne-musik-zu-schrag-fur-wen</id>
+    <content type="html"><![CDATA[<p><a href="http://www.zeit.de/2009/45/N-Musik-Replik">Moderne Musik: Zu schräg - für wen?</a></p>
+
+<blockquote>&#8220;Neue Musik&#8221; überfordert unser Gehirn, behaupten Hirnforscher. Unsinn!</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[#haml - Templating]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/25/number-haml-templating/"/>
+    <updated>2009-10-25T18:20:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/25/number-haml-templating</id>
+    <content type="html"><![CDATA[<p><a href="http://haml-lang.com/">#haml - Templating</a></p>
+
+<blockquote>Haml takes your gross, ugly templates and replaces them with veritable Haiku.</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sass - Syntactically Awesome Stylesheets]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/25/sass-syntactically-awesome-stylesheets/"/>
+    <updated>2009-10-25T18:15:00+01:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/25/sass-syntactically-awesome-stylesheets</id>
+    <content type="html"><![CDATA[<p><a href="http://sass-lang.com/">Sass - Syntactically Awesome Stylesheets</a></p>
+
+<blockquote>Sass makes CSS fun again. Sass is CSS, plus <a href="http://sass-lang.com/#nesting">nested rules</a>, <a href="http://sass-lang.com/#variables">variables</a>, <a href="http://sass-lang.com/#mixins">mixins</a>, and <a href="http://sass-lang.com//docs/yardoc/SASS_REFERENCE.md.html">more</a>, all in a <a href="http://sass-lang.com/#beauty">concise, readable syntax.</a></blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Validatious 2.0 - Easy form validation with unobtrusive JavaScript]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/23/validatious-2-dot-0-easy-form-validation-with-unobtrusive-javascript/"/>
+    <updated>2009-10-23T14:03:00+02:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/23/validatious-2-dot-0-easy-form-validation-with-unobtrusive-javascript</id>
+    <content type="html"><![CDATA[<p><a href="http://validatious.org/">Validatious 2.0 - Easy form validation with unobtrusive JavaScript</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[grimen's validatious-on-rails]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/23/grimens-validatious-on-rails/"/>
+    <updated>2009-10-23T14:02:00+02:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/23/grimens-validatious-on-rails</id>
+    <content type="html"><![CDATA[<p><a href="http://github.com/grimen/validatious-on-rails/">grimen&#8217;s validatious-on-rails</a></p>
+
+<p>
+Rails gem um clientseitig Formulare zu validieren.
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[dima-exe's emacs-rails-reloaded]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/16/dima-exes-emacs-rails-reloaded/"/>
+    <updated>2009-10-16T15:01:00+02:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/16/dima-exes-emacs-rails-reloaded</id>
+    <content type="html"><![CDATA[<p><a href="http://github.com/dima-exe/emacs-rails-reloaded">dima-exe&#8217;s emacs-rails-reloaded</a></p>
+
+<p>Rails mode für Emacs</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[flyspell.el - Spellchecking for Emacs]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/16/flyspell-dot-el-spellchecking-for-emacs/"/>
+    <updated>2009-10-16T14:33:00+02:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/16/flyspell-dot-el-spellchecking-for-emacs</id>
+    <content type="html"><![CDATA[<p><a href="http://www-sop.inria.fr/members/Manuel.Serrano/flyspell/flyspell.html">flyspell.el - Spellchecking for Emacs</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[DVC: Distributed Version Control for Emacs]]></title>
+    <link href="http://feinerfug.github.com/blog/2009/10/16/dvc-distributed-version-control-for-emacs/"/>
+    <updated>2009-10-16T14:33:00+02:00</updated>
+    <id>http://feinerfug.github.com/blog/2009/10/16/dvc-distributed-version-control-for-emacs</id>
+    <content type="html"><![CDATA[<p><a href="http://www.xsteve.at/prg/emacs_dvc/dvc.html">DVC: Distributed Version Control for Emacs</a></p>
+]]></content>
+  </entry>
+  
+</feed>
